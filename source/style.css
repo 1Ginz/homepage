@@ -143,7 +143,6 @@ input {
     float: right;
     display: flex;
     justify-content: space-between;
-    border-right: solid 1px gray;
 }
 .menu-title-right p{
     padding-top: 1em;
@@ -151,4 +150,57 @@ input {
 } 
 .menu .contain {
     padding: 0em 5em 1em 5em;
+}
+.page-number{
+    text-align: right;
+    margin-left: 1.0em;
+}
+footer{
+    padding: 1em 10em;
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+footer p{
+    font-size: 1.5em;
+    padding-left: 2.5em;
+}
+.signature{
+    text-align: left;
+}
+.last-details i {
+    font-size: 5em;
+    padding-left: 1.5em;
+}
+.last-details span{
+    padding-left: 8em;
+}
+.last-details p {
+    font-size: 0.9em;
+}
+.contact p{
+    font-size: 0.9em;
+}
+.contact span{
+    margin-bottom: 1px;
+}
+.contact {
+    padding-top: 3em;
+}
+.information{
+    padding-top: 3em;
+}
+.information p{
+    font-size: 0.9em;   
+}
+.information span{
+    padding-bottom: 1.5em;
+}
+.about-us{
+    padding-top: 3em;
+}
+.about-us span{
+    padding-bottom: 1.5em;
+}
+.about-us p{
+    font-size: 0.9em;
 }
