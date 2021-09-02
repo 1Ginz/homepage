@@ -204,3 +204,6 @@ footer p{
 .about-us p{
     font-size: 0.9em;
 }
+body{
+    overflow-x:hidden;
+}
