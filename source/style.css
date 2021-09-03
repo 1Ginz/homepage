@@ -58,14 +58,14 @@ input {
     flex-direction: row;
 }
 .fa-shopping-cart{
-    background-color: greenyellow;
-    color: white;
+    background-color: #f8694d;
+    color: #f8694d;
     padding-top: 35px;
-    padding-right: 10px;
+    padding-right: 50px;
     padding-left: 10px;
 }
 .names{
-    color: greenyellow;
+    color: red;
 }
 .search p {
     padding-top: 0.2em;
@@ -84,14 +84,14 @@ input {
 }
 .mid-2nd{
     color: aliceblue;
-    background-image: url("https://images.unsplash.com/photo-1610452220299-5edf90b8a6ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2000&q=80");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .right-2nd{
     padding-left: 5px;
     color: aliceblue;
-    background-image: url("https://images.unsplash.com/photo-1591003659159-54a5579d395e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80");
+    background-image: url("http://itplus-academy.edu.vn/upload/c47d9c29fc44c2b7996a2613aec3c1f9/files/biiiiii.jpg");
+    /* background-size: 100px; */
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -117,7 +117,8 @@ input {
     border-right: none;
 }
 .transport {
-    margin: 1em 9em 1em 10em;
+    height: 100px;
+    margin: 2em 9em 1em 10em;
 }
 .transport .row .col {
     display: flex;
@@ -128,9 +129,11 @@ input {
     font-size: 2em;
 }
 .transport .row .col .details {
+    padding: 20px;
     padding-right: 0;
 }
 .menu .title{
+    
     padding: 1em 11em 1em 10em;
 }
 .menu-title-left{
@@ -149,11 +152,17 @@ input {
     padding-right: 3em;
 } 
 .menu .contain {
-    padding: 0em 5em 1em 5em;
+    width: 80%;
+    background-color: white;
+    margin-left: calc(10% + 10px);
+    margin-right: 100px;
+    /* padding: 0em 5em 1em 5em; */
 }
 .page-number{
     text-align: right;
+    padding-top: 10px;
     margin-left: 1.0em;
+    display: inline-block;
 }
 footer{
     padding: 1em 10em;
@@ -210,4 +219,62 @@ footer p{
 html{
     overflow-x:hidden;
     overflow-y: scroll;
+}
+
+
+/*Binh config start here*/
+
+.button-search{
+    background-color: red;
+    color: white;
+}
+
+.body-app{
+    background-color: #f5f5f5;
+}
+
+.white-div{
+    background-color: white;
+}
+
+.icon-transport{
+    padding-left: 50px;
+    margin-top: 22px;
+}
+
+.navbar__title-category{
+    color: red;
+}
+
+.fas, .fab{
+    color: black;
+}
+
+.item-color{
+    color: #28a745;
+}
+
+.navbar__tittle-head{
+    margin-left: 3px;
+    padding-top: 3px;
+    color: red;
+}
+
+.title-item-div{
+    background-color: rgb(107, 193, 95) ;
+    height: 30px;
+}
+
+.cart-icon{
+    color: #f8694d;
+}
+
+.cart{
+    color: red;
+}
+
+.logo-div{
+    width: 100px;
+    height: 30px;
+    background-color: black;
 }

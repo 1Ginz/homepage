@@ -1,0 +1,81 @@
+body {
+    font-size: 16px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header .login ul li{
+    display: inline;
+    padding: 0 10px; 
+}
+header .login {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    padding: 2em auto;
+}
+header .login ul {
+    padding: 0.7em 0.7em 0em 0.7em;
+}
+.login-user {
+    border-right: solid 1px gray;
+    
+}
+.register-user {
+    border-left: solid 1px gray;
+}
+.nav-bar ul{
+    
+    list-style: none;
+}
+.nav-bar ul li {
+    padding-left: 1em;
+    padding-right: 2em;
+    
+}
+nav {
+    padding: 1em 10em;
+}
+.search {
+    display: flex;
+    justify-content: left;
+}
+select {
+    
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    
+}
+input {
+    padding: 0 5em;
+    padding-bottom: 0.4em;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.fa-shopping-cart{
+    background-color: greenyellow;
+    color: white;
+    padding-top: 35px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.names{
+    color: greenyellow;
+}
+.search p {
+    padding-top: 0.2em;
+}
+.details{
+    font-size: 14px;
+}
+.shop-name {
+    font-size: 22px;
+}
+.cart{
+    padding-top: 25px;
+}
