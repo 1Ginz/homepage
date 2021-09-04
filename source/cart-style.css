@@ -110,8 +110,10 @@ main form{
 }
 
 .column-4 input{
-    width: 2em;     
+    margin-left: 25%;
+    padding: 0%;
 }
+
 .colum-6{
     text-align: center;
 }
