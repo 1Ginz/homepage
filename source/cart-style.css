@@ -58,14 +58,14 @@ input {
     flex-direction: row;
 }
 .fa-shopping-cart{
-    background-color: greenyellow;
-    color: white;
+    background-color: #f8694d;
+    color: #f8694d;
     padding-top: 35px;
-    padding-right: 10px;
+    padding-right: 50px;
     padding-left: 10px;
 }
 .names{
-    color: greenyellow;
+    color: red;
 }
 .search p {
     padding-top: 0.2em;
@@ -78,4 +78,158 @@ input {
 }
 .cart{
     padding-top: 25px;
+}
+
+main{
+    margin: 1em 10em;
+}
+main h5{
+    padding-top: 1.2em;
+    padding-bottom: 0.5em;
+    
+}
+main form{
+    margin: 0em 1em;
+}
+.cart-header-details{
+    padding: 0em 1em;
+}
+.column-header{
+    border: solid 1px gray; 
+}
+.cart-items{
+    padding: 0em 1em;
+}
+.column-item{
+    border: solid 1px gray;
+    font-size: 0.9em;
+}
+.column-1{
+    text-align: center;
+    padding: 1em;
+}
+
+.column-4 input{
+    width: 2em;     
+}
+.colum-6{
+    text-align: center;
+}
+.cash{
+    padding-top: 1em;
+    text-align: end;
+}
+.pay{
+    text-align: end;
+}
+.goback{
+
+}
+
+footer{
+    padding: 1em 10em;
+    background-color: darkslategray;
+    color: whitesmoke;
+
+}
+footer p{
+    font-size: 1.5em;
+    padding-left: 2.5em;
+
+}
+.signature{
+    text-align: left;
+    padding-left: 5em;
+}
+.last-details i {
+    font-size: 5em;
+    padding-left: 1.2em;
+}
+.last-details span{
+    padding-left: 6.5em;
+}
+.last-details p {
+    font-size: 0.9em;
+}
+.contact p{
+    font-size: 0.9em;
+}
+.contact span{
+    margin-bottom: 1px;
+}
+.contact {
+    padding-top: 3em;
+}
+.information{
+    padding-top: 3em;
+}
+.information p{
+    font-size: 0.9em;   
+}
+.information span{
+    padding-bottom: 1.5em;
+}
+.about-us{
+    padding-top: 3em;
+}
+.about-us span{
+    padding-bottom: 1.5em;
+}
+.about-us p{
+    font-size: 0.9em;
+}
+html{
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+/*Binh config start here*/
+
+.button-search{
+    background-color: red;
+    color: white;
+}
+
+.body-app{
+    background-color: #f5f5f5;
+}
+
+.white-div{
+    background-color: white;
+}
+
+.navbar__title-category{
+    color: red;
+}
+
+.fas, .fab{
+    color: black;
+}
+
+.item-color{
+    color: #28a745;
+}
+
+.navbar__tittle-head{
+    margin-left: 3px;
+    padding-top: 3px;
+    color: red;
+}
+
+.title-item-div{
+    background-color: rgb(107, 193, 95) ;
+    height: 30px;
+}
+
+.cart-icon{
+    color: #f8694d;
+}
+
+.cart{
+    color: red;
+}
+
+.logo-div{
+    width: 100px;
+    height: 30px;
+    background-color: black;
 }
