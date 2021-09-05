@@ -162,6 +162,9 @@ main button:hover{
 .more-info{
     padding: 0%;
 }
+.comment{
+    display: none;
+}
 footer{
     padding: 1em 10em;
     background-color: darkslategray;
