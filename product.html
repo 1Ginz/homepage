@@ -5,9 +5,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="./source/product-style.css">
-
-        <!-- script  -->
-        <script src="./source/product-script.js"></script>
         <title>Cart</title>
         <!-- icon -->
         <script src="https://kit.fontawesome.com/44ec9fb3c1.js" crossorigin="anonymous"></script>
@@ -74,7 +71,7 @@
             <div class="img-item col-4">
             <img src="https://images.unsplash.com/photo-1597311280709-24f8604825ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="com-tam" height="450" width="400" >
             </div>
-            <div class="col-8 item-detail">
+            <div class="col-7 item-detail">
               <h5>CƠM GÀ</h5>
               <p>Trong ẩm thực Việt, có lẽ chẳng món ăn nào “dễ chịu” như gỏi cuốn. Dùng làm thức ăn nhẹ cũng được, mà ăn no căng bụng cũng không ngấy; có lẽ bởi vậy mà gỏi cuốn đã trở thành món ăn không thể thiếu trong thực đơn của các nhà hàng Việt tại trời Tây. Người...</p>
               <span>Nhãn hiệu:</span>
@@ -96,29 +93,34 @@
             </div>
           </div>
         </main>
-        <div class="white-div info">
-          <div class="choice-detail">
-            <p class="white-div choice-info" id="1">THÔNG TIN CHI TIẾT</p>
-            <p class="white-div choice-comment" id="2">NHẬN XÉT</p>
-          </div>
-          <div class="more-info" id="3">
+        <div class="info white-div">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="detail-tab" data-toggle="tab" href="#detail" role="tab" aria-controls="detail" aria-selected="true">THÔNG TIN CHI TIẾT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="comment-tab" data-toggle="tab" href="#comment" role="tab" aria-controls="comment" aria-selected="false">NHẬN XÉT</a>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="detail" role="tabpanel" aria-labelledby="detail-tab">
             <p>Trong ẩm thực Việt, có lẽ chẳng món ăn nào “dễ chịu” như gỏi cuốn. Dùng làm thức ăn nhẹ cũng được, mà ăn no căng bụng cũng không ngấy; có lẽ bởi vậy mà gỏi cuốn đã trở thành món ăn không thể thiếu trong thực đơn của các nhà hàng Việt tại trời Tây.
-
-              Người Pháp thì gọi Cơm gà là "Rouleaux de Printemps" - những cuốn gỏi của mùa xuân. Có lẽ là do sự kết hợp sắc màu thú vị của gỏi cuốn. Cắn một miếng gỏi cuốn, cảm nhận vị dai của bánh tráng, vị béo đậm đà của thịt ba rọi trộn lẫn vị ngọt của tôm luộc, thêm một chút mặn mà của nước chấm, cái mát lạnh, cay nồng nơi đầu lưỡi của rau sống tạo thành một bản hợp tấu làm dậy lên các cung bậc vị giác.</p>
-              <img src="https://images.unsplash.com/photo-1597311280709-24f8604825ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="com-tam" style="padding-left: 25%;;" height="700" width="882">
-          </div>
-          <div class="comment" id="4">
+          
+            Người Pháp thì gọi Cơm gà là "Rouleaux de Printemps" - những cuốn gỏi của mùa xuân. Có lẽ là do sự kết hợp sắc màu thú vị của gỏi cuốn. Cắn một miếng gỏi cuốn, cảm nhận vị dai của bánh tráng, vị béo đậm đà của thịt ba rọi trộn lẫn vị ngọt của tôm luộc, thêm một chút mặn mà của nước chấm, cái mát lạnh, cay nồng nơi đầu lưỡi của rau sống tạo thành một bản hợp tấu làm dậy lên các cung bậc vị giác.</p>
+            <img src="https://images.unsplash.com/photo-1597311280709-24f8604825ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="com-tam" style="padding-left: 25%;;" height="700" width="882">
+            </div>
+            <div class="tab-pane fade" id="comment" role="tabpanel" aria-labelledby="comment-tab">
             <form action="" id="">Tên: <input type="text" name="">.
-              <br>
-              <br>
-              <textarea rows="4" cols="50" name="comment" form="">Nhận xét ở đây</textarea>
-              <br>
-              <input type="submit">
-            </form>
-            <br>
-            <h1>HIỆN TẠI CHƯA CÓ NHẬN XÉT ĐÂU, VIẾT ĐI MỚI CÓ CÁI ĐỌC</h1>
+                        <br>
+                        <br>
+                        <textarea rows="4" cols="50" name="comment" form="">Nhận xét ở đây</textarea>
+                        <br>
+                        <input type="submit">
+                      </form>
+                      <br>
+                      <h1>HIỆN TẠI CHƯA CÓ NHẬN XÉT ĐÂU, VIẾT ĐI MỚI CÓ CÁI ĐỌC</h1>
+            </div>
           </div>
-        </div>  
+        </div>
         <footer>
             <div class="email row">
               <p>ĐĂNG KÍ ĐỂ NHẬN COUPON GIẢM GIÁ MỚI NHẤT</p>
